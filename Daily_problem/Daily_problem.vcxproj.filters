@@ -24,5 +24,13 @@
     <ClCompile Include="104. Maximum Depth of Binary Tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="226. Invert Binary Tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="queue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
