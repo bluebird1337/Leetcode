@@ -21,5 +21,8 @@
     <ClCompile Include="617_merge_two_binary_tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="104. Maximum Depth of Binary Tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
