@@ -27,6 +27,12 @@
     <ClCompile Include="226. Invert Binary Tree.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="136. Single Number.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="206. Reverse Linked List.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="queue.h">

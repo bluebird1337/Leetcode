@@ -54,14 +54,11 @@ void preorder(node* p) {
 }
 //
 //other functions
-node* invert(node* root);
+struct TreeNode* invertTree(struct TreeNode* root);
+int singleNumber(int* nums, int numsSize);
 //
 int main() {
-	node* root = NULL;
-	root = create_tree(root);
-	preorder(root);
-	root = invert(root);
-	printf("\n");
-	preorder(root);
+	int a[] = { 4, 1, 2, 1, 2};
+	printf("%d ", singleNumber(a, 5));
 	return 0;
 }
