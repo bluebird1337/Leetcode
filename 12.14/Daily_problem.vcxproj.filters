@@ -18,25 +18,13 @@
     <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="617_merge_two_binary_tree.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="104. Maximum Depth of Binary Tree.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="226. Invert Binary Tree.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="136. Single Number.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="206. Reverse Linked List.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="169. Majority Element.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="283. Move Zeroes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="448. Find All Numbers Disappeared in an Array.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

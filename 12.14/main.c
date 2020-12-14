@@ -60,12 +60,16 @@ int majorityElement(int* nums, int numsSize);
 void moveZeroes(int* nums, int numsSize);
 void swap(int* a, int* b);
 int find_zero(int* nums, int index, int size);
+void insertion_sort(int* nums, int size);
+int* findDisappearedNumbers(int* nums, int numsSize, int* returnSize);
 //
 int main() {
-	int a[] = { 1, 0, 1, 0, 1 };
-	moveZeroes(a, 5);
-	for (int i = 0; i < 5; i++) {
-		printf("%d ", a[i]);
+	int a[] = { 2, 2 };
+	int* num = (int*)malloc(sizeof(int));
+	int* ans = NULL;
+	ans = findDisappearedNumbers(a, 2, num);
+	for (int i = 0; i < *num; i++) {
+		printf("%d ", ans[i]);
 	}
 	return 0;
 }
