@@ -33,6 +33,12 @@
     <ClCompile Include="206. Reverse Linked List.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="169. Majority Element.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="283. Move Zeroes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="queue.h">

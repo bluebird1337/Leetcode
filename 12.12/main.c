@@ -56,9 +56,16 @@ void preorder(node* p) {
 //other functions
 struct TreeNode* invertTree(struct TreeNode* root);
 int singleNumber(int* nums, int numsSize);
+int majorityElement(int* nums, int numsSize);
+void moveZeroes(int* nums, int numsSize);
+void swap(int* a, int* b);
+int find_zero(int* nums, int index, int size);
 //
 int main() {
-	int a[] = { 4, 1, 2, 1, 2};
-	printf("%d ", singleNumber(a, 5));
+	int a[] = { 1, 0, 1, 0, 1 };
+	moveZeroes(a, 5);
+	for (int i = 0; i < 5; i++) {
+		printf("%d ", a[i]);
+	}
 	return 0;
 }

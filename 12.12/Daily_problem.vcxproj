@@ -21,8 +21,10 @@
   <ItemGroup>
     <ClCompile Include="104. Maximum Depth of Binary Tree.c" />
     <ClCompile Include="136. Single Number.c" />
+    <ClCompile Include="169. Majority Element.c" />
     <ClCompile Include="206. Reverse Linked List.c" />
     <ClCompile Include="226. Invert Binary Tree.c" />
+    <ClCompile Include="283. Move Zeroes.c" />
     <ClCompile Include="617_merge_two_binary_tree.c" />
     <ClCompile Include="main.c">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
