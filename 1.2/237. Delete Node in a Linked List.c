@@ -1,0 +1,15 @@
+#pragma warning(disable:6011)
+#include<stdio.h>
+#include<stdlib.h>
+
+
+// Definition for singly-linked list.
+struct ListNode {
+	int val;
+	struct ListNode *next;
+};
+
+void deleteNode(struct ListNode* node) {
+	node->val = node->next->val;
+	node->next = node->next->next;
+}
