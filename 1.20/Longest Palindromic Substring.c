@@ -39,12 +39,20 @@ char* longestPalindrome(char* s) {
 		//initialize length of substring with pivot = p
 		tmp = 1;
 		if (p == 0 || p == len - 1) {
-			update(tmp, &max, &res, p, p, s);
+			if (len == 2) {
+				if (p == 0 && s[p] == s[p + 1]) {
+					tmp++;
+					update(tmp, &max, &res, p, p + 1, s);
+				}
+			}
+			else {
+				update(tmp, &max, &res, p, p, s);
+			}
 			continue;
 		}
 		else {
 			i = p - 1, j = p + 1;
-			while ( (s[i] == s[j]) && i >= 0 && j < len) {
+			while (i >= 0 && j < len && (s[i] == s[j])) {
 				tmp += 2;
 				i--;
 				j++;
