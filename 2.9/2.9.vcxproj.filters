@@ -15,10 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="594. Longest Harmonious Subsequence.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="55. Jump Game.cpp">
+    <ClCompile Include="56. Merge Intervals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

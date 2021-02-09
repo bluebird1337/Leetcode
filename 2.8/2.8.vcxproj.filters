@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="594. Longest Harmonious Subsequence.cpp">
+    <ClCompile Include="Shortest Distance to a Character.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="55. Jump Game.cpp">
+    <ClCompile Include="Binary Tree Right Side View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Simplify Path.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
